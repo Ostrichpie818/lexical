@@ -6,7 +6,7 @@ from openai import OpenAI  # 新增导入
 
 # 页面配置
 st.set_page_config(
-    page_title="词法分析 Based on DeepSeek",
+    page_title="词汇结构分析 Based on DeepSeek",
     page_icon="📊",
     layout="centered"
 )
@@ -57,7 +57,7 @@ def save_to_file(content):
     return filename, content
 
 # 页面标题
-st.title("词法分析 Based on DeepSeek-V3")
+st.title("词汇结构分析 Based on DeepSeek-V3")
 
 st.markdown("""By 北京大学吴云芳NLP组""")
 
