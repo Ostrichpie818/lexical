@@ -1,3 +1,4 @@
+!pip install --upgrade pip
 streamlit==1.42.2
 openai==1.30.3
 python==3.11.7
