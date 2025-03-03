@@ -1,4 +1,4 @@
 streamlit==1.42.2
 openai==1.30.3
-python==3.11.7
+# python==3.11.7
 requests==2.31.0
